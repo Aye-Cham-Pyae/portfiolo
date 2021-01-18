@@ -1,0 +1,65 @@
+*{
+	color: grey;
+}
+.navbar{
+	background-color: #d4edfa;
+}
+.navbar-brand{
+	font-family: 'Roboto Slab', serif;
+	color: #3d3c3c;
+	font-size: 25px;
+}
+div#banner div.quote{
+	position: absolute;
+	top: 250px;
+	left: 620px;	
+}
+.banner_title{
+	font-family: 'Roboto Slab', serif;	
+	color: #3d3c3c;
+	font-size: 50px;
+}
+.banner_p{
+	font-size: 25px;
+}
+.about_hr{
+	margin: auto;
+	border: 1px solid black;
+	width: 115px;
+}
+.about_p{
+	line-height: 30px;
+}
+.title{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	color: #3d3c3c;
+}
+.subtitle{
+	font-family: 'Roboto Slab', serif;
+	color: #575656;
+}
+.skill{
+	margin-top: 200px;
+}
+.skill_hr{
+	margin: auto;
+	border: 1px solid black;
+	width: 80px;
+}
+.contact{
+	margin-top: 200px;
+}
+.contact_hr{
+	margin: auto;
+	border: 1px solid black;
+	width: 140px;
+}
+#email, #facebook, #instagram,
+#github, #location, #phone{
+	color: #575656;
+}
+footer.footer{
+	background-color: #d4edfa;
+}
+
