@@ -4,50 +4,53 @@
 	<title>Aye Cham Pyae</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+	<!-- favicon -->
+	<link rel="icon" type="image/jpg" sizes="17*17" href="image/logo.jpg">
 </head>
-<body>
+<body style="background-color: #e6f1f7;">
 	<!-- navbar start -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light">		
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a href="" class="navbar-brand">Aye Cham Pyae</a>
-			<button class="navbar-toggler" data-bs-target="#Navbar" data-bs-toggle="collapse">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="Navbar">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link mx-4">Home</a></li>
-					<li class="nav-item"><a href="" class="nav-link mx-4">About</a></li>
-					<li class="nav-item"><a href="" class="nav-link mx-4">Contact</a></li>
-				</ul>
-			</div>
+			<a href="" class="navbar-brand logo me-auto">Aye Cham Pyae</a>
+				<button class="navbar-toggler" data-bs-target="#Navbar" data-bs-toggle="collapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="Navbar">
+					<ul class="navbar-nav nav-fill ms-auto">
+						<li class="nav-item mx-4"><a href="#banner" class="nav-link">Home</a></li>	
+						<li class="nav-item mx-4"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item mx-4"><a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+		</div>		
 		</div>
 	</nav>
 	<!-- navbar end -->
 
 	<!-- banner start  -->
-	<div class="carousel mb-5">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="image/2.jpg" class="img-fluid">
-				<div class="carousel_text">
-					<h1>Aye Cham Pyae</h1>
-					<p>I'm full stack Developer</p>
-				</div>
-			</div>
+	<div id="banner" class="mb-5">
+		<img src="image/2.png" class="img-fluid">
+		<div class="quote">
+			<h1 class="banner_title">Aye Cham Pyae</h1>
+			<p class="banner_p">I'm Full Stack Developer</p>
 		</div>
-	</div>	
+	</div>
 	<!-- banner end -->
 
 	<!-- about start -->
-	<div class="container my-5">
-		<h1 class="text-center my-5">About</h1>
+	<div class="container my-5" id="about">
+		<h2 class="title text-center my-4">About</h2>
+		<hr class="about_hr mb-5">
 		<div class="row">
-			<div class="col-6">
-				<p>Hello! I'm Aye Cham Pyae.I was born in Yangon, Myanmar and my birhthdate is  3<sup>rd</sup>, August, 1997. My Parents are U Win Naing and Daw Yee Yee Hlaing. There are four mumber in my family.I have one little brother. I live with family in South Dagon township, Yangon. I graduated with B.Sc(Biodchemistry) at Dagon University in 2018. Now I'm learning programmin and japanese language.</p>
+			<div class="about_p offset-1 col-4" >
+				<p>Hello! I'm Aye Cham Pyae.I was born in Yangon, Myanmar and my birhthdate is  3<sup>rd</sup>, August, 1997. My Parents are U Win Naing and Daw Yee Yee Hlaing. There are four mumber in my family.I have one little brother. I live with family in South Dagon township, Yangon.I graduated with B.Sc(Biodchemistry) at Dagon University in 2018. Now I'm learning programmin and japanese language.</p>
 			</div>
-			<div class="col-4">
-				<h3 class="mb-3">Biography</h3>
-				<table>
+			<div class="offset-2 col-4">
+				<h3 class="mb-3 subtitle">Biography</h3>
+				<table cellpadding="5">
 					<tr>
 						<th>NAME:</th>
 						<td>Aye Cham Pyae</td>
@@ -74,16 +77,115 @@
 	</div>
 	<!-- about end -->
 
+	<!-- skill start -->
+	<div class="container text-center skill">
+		<h2 class="title">Skill</h2>
+		<hr class="skill_hr mb-5">
+		<div class="row">
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/html/"><img src="image/html.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/css/"><img src="image/css.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/js/DEFAULT.asp"><img src="image/js.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/jquery/"><img src="image/jq.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/"><img src="image/bootstrap.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/php/"><img src="image/php.png" class="img-fluid"></a>
+			</div>
+			<div class="offset-4 col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://laravel.com/docs/8.x/releases"><img src="image/laravel.png" class="img-fluid"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-lg-2 col-4">
+				<a href="https://www.w3schools.com/sql/"><img src="image/mysql.png" class="img-fluid"></a>
+			</div>
+		</div>
+	</div>
+	<!-- skill end -->
+
+	<!-- contact start -->
+		<div class="contact container mb-5" id="contact">
+			<h2 class="title text-center my-4">Contact</h2>
+			<hr class="contact_hr mb-5">
+			<div class="row">
+				<div class="col-6">
+					<div class="row">
+						<div class="offset-2 col-2">
+							<a href="https://www.champyae83@gmail.com"><i class="fas fa-envelope fa-3x" id="email"></i></a>
+							<p>Email:</p>
+						</div>
+						<div class="col-2">
+							<a href="https://www.facebook.com/profile.php?id=100048313493627"><i class="fab fa-facebook-square fa-3x" id="facebook"></i></a>
+							<p>Facebook:</p>
+						</div>
+						<div class="col-2">
+							<a href="https://www.instagram.com/ayechampyae/"><i class="fab fa-instagram fa-3x" id="instagram"></i></a>
+							<p>Instagram:</p>
+						</div>	
+						<div class="col-2">
+							<a href="https://github.com/Aye-Cham-Pyae"><i class="fab fa-github fa-3x" id="github"></i></a>
+							<p>Github:</p>
+						</div>
+						<div class="offset-2 col-1 my-4">
+							<i class="fas fa-map-marker-alt fa-2x" id="location"></i>
+						</div>
+						<div class="col-8 my-3">
+							<h4 class="subtitle">Location:</h4>
+							<p>South Dagon, Yangon</p>
+						</div>
+						<div class="offset-2 col-1 my-4">
+							<i class="fas fa-phone-alt fa-2x" id="phone"></i>
+						</div>
+						<div class="col-8 my-3">
+							<h4 class="subtitle">Phone:</h4>
+							<p>+959250495581, +959793693184</p>
+						</div>
+					</div>
+				</div>
+				<div class=" col-6">
+					<form>
+						<div class="form-group row">						
+							<div class="mb-3">
+								<input type="text" name="name" class="form-control" placeholder="Name">
+							</div>
+							<div class="mb-3">
+								<input type="email" name="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="mb-3">
+								<textarea class="form-control" placeholder="Message" rows="10"></textarea>
+							</div>
+							<div class="offset-8 col-4 mb-3">
+								<button type="submit" class="form-control" value="send Message">Send Message</button>
+							</div>
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+	<!-- contact end -->
+
 	<!-- footer start -->
-	<footer class="container-fluid  text-center">
-		<div class="py-3">
-			<p class="text-muted">Designed By&diams; Aye Cham Pyae</p>
-			<p class="text-light">
-				<i class="fab fa-facebook-square mx-2"></i>
-				<i class="fab fa-facebook-messenger mx-2"></i>
-				<i class="fab fa-instagram-square mx-2"></i>
-				<i class="fab fa-github mx-2"></i>
-			</p>
+	<footer class="footer container-fluid py-4">
+		<div class="row align-item-center">
+			<div class="col-4 text-center text-md-left">
+				<p class="text-muted">Designed By&diams; Aye Cham Pyae</p>
+			</div>			
+			<div class="offset-4 col-md-3 text-center text-md-right">	
+				<h5 class="text-muted d-inline">Contact me&raquo;</h5>		
+				<div class="d-inline">
+					<a href="https://www.facebook.com/profile.php?id=100048313493627"><i class="fab fa-facebook-square mx-2"></i></a>
+					<a href="https://www.instagram.com/ayechampyae/"><i class="fab fa-instagram mx-2"></i></a>
+					<a href="https://github.com/Aye-Cham-Pyae"><i class="fab fa-github mx-2"></i></a>
+				</div>
+			</div>
+				
 		</div>
 	</footer>
 	<!-- footer end -->
